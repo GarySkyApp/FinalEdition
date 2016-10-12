@@ -53,6 +53,7 @@
 		1B051A4F1DAE3B8D00AA78D7 /* FlagImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B051A1E1DAE3B8D00AA78D7 /* FlagImageView.m */; };
 		1B051A501DAE3B8D00AA78D7 /* TouchPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B051A201DAE3B8D00AA78D7 /* TouchPhotoView.m */; };
 		1B051A511DAE3B8D00AA78D7 /* Bubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B051A231DAE3B8D00AA78D7 /* Bubble.m */; };
+		1B051A551DAE3BFE00AA78D7 /* XCHudHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B051A541DAE3BFE00AA78D7 /* XCHudHelper.m */; };
 		1B058FE91DAE2BD400B4DEF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FE81DAE2BD400B4DEF8 /* main.m */; };
 		1B058FEC1DAE2BD400B4DEF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FEB1DAE2BD400B4DEF8 /* AppDelegate.m */; };
 		1B058FEF1DAE2BD400B4DEF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FEE1DAE2BD400B4DEF8 /* ViewController.m */; };
@@ -174,6 +175,8 @@
 		1B051A201DAE3B8D00AA78D7 /* TouchPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchPhotoView.m; sourceTree = "<group>"; };
 		1B051A221DAE3B8D00AA78D7 /* Bubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubble.h; sourceTree = "<group>"; };
 		1B051A231DAE3B8D00AA78D7 /* Bubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubble.m; sourceTree = "<group>"; };
+		1B051A531DAE3BFE00AA78D7 /* XCHudHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCHudHelper.h; sourceTree = "<group>"; };
+		1B051A541DAE3BFE00AA78D7 /* XCHudHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCHudHelper.m; sourceTree = "<group>"; };
 		1B058FE41DAE2BD400B4DEF8 /* FinalEdition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalEdition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B058FE81DAE2BD400B4DEF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B058FEA1DAE2BD400B4DEF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -220,6 +223,7 @@
 		1B0519AC1DAE3B8D00AA78D7 /* Pro */ = {
 			isa = PBXGroup;
 			children = (
+				1B051A521DAE3BFE00AA78D7 /* XCHudHelper */,
 				1B0519AD1DAE3B8D00AA78D7 /* Animation */,
 				1B0519B01DAE3B8D00AA78D7 /* AssetCompress */,
 				1B0519B31DAE3B8D00AA78D7 /* AssetImage */,
@@ -525,6 +529,15 @@
 			path = "气泡";
 			sourceTree = "<group>";
 		};
+		1B051A521DAE3BFE00AA78D7 /* XCHudHelper */ = {
+			isa = PBXGroup;
+			children = (
+				1B051A531DAE3BFE00AA78D7 /* XCHudHelper.h */,
+				1B051A541DAE3BFE00AA78D7 /* XCHudHelper.m */,
+			);
+			path = XCHudHelper;
+			sourceTree = "<group>";
+		};
 		1B058FDB1DAE2BD400B4DEF8 = {
 			isa = PBXGroup;
 			children = (
@@ -773,6 +786,7 @@
 				1B051A411DAE3B8D00AA78D7 /* DataManager.m in Sources */,
 				1B051A421DAE3B8D00AA78D7 /* PageManager.m in Sources */,
 				1B051A2E1DAE3B8D00AA78D7 /* UIImage+animatedGIF.m in Sources */,
+				1B051A551DAE3BFE00AA78D7 /* XCHudHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
