@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B0519A41DAE36A200AA78D7 /* MemoryLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0519A31DAE36A200AA78D7 /* MemoryLog.m */; };
+		1B0519AB1DAE3A7F00AA78D7 /* Calculagraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0519AA1DAE3A7F00AA78D7 /* Calculagraph.m */; };
 		1B058FE91DAE2BD400B4DEF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FE81DAE2BD400B4DEF8 /* main.m */; };
 		1B058FEC1DAE2BD400B4DEF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FEB1DAE2BD400B4DEF8 /* AppDelegate.m */; };
 		1B058FEF1DAE2BD400B4DEF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FEE1DAE2BD400B4DEF8 /* ViewController.m */; };
@@ -65,6 +66,8 @@
 /* Begin PBXFileReference section */
 		1B0519A21DAE36A200AA78D7 /* MemoryLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryLog.h; sourceTree = "<group>"; };
 		1B0519A31DAE36A200AA78D7 /* MemoryLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemoryLog.m; sourceTree = "<group>"; };
+		1B0519A91DAE3A7F00AA78D7 /* Calculagraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculagraph.h; sourceTree = "<group>"; };
+		1B0519AA1DAE3A7F00AA78D7 /* Calculagraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculagraph.m; sourceTree = "<group>"; };
 		1B058FE41DAE2BD400B4DEF8 /* FinalEdition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalEdition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B058FE81DAE2BD400B4DEF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B058FEA1DAE2BD400B4DEF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -171,6 +174,15 @@
 			path = MemoryLog;
 			sourceTree = "<group>";
 		};
+		1B0519A81DAE3A7F00AA78D7 /* Calculagraph */ = {
+			isa = PBXGroup;
+			children = (
+				1B0519A91DAE3A7F00AA78D7 /* Calculagraph.h */,
+				1B0519AA1DAE3A7F00AA78D7 /* Calculagraph.m */,
+			);
+			path = Calculagraph;
+			sourceTree = "<group>";
+		};
 		1B058FDB1DAE2BD400B4DEF8 = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +249,7 @@
 		1B0590321DAE2E0F00B4DEF8 /* Pro */ = {
 			isa = PBXGroup;
 			children = (
+				1B0519A81DAE3A7F00AA78D7 /* Calculagraph */,
 				1B0519A11DAE36A200AA78D7 /* MemoryLog */,
 				1B0590331DAE2E0F00B4DEF8 /* Animation */,
 				1B0590361DAE2E0F00B4DEF8 /* AssetCompress */,
@@ -576,6 +589,7 @@
 				1B05907A1DAE2E0F00B4DEF8 /* CompressImage.m in Sources */,
 				1B0590831DAE2E0F00B4DEF8 /* JmpManager.m in Sources */,
 				1B0590811DAE2E0F00B4DEF8 /* UIView+Fram.m in Sources */,
+				1B0519AB1DAE3A7F00AA78D7 /* Calculagraph.m in Sources */,
 				1B0519A41DAE36A200AA78D7 /* MemoryLog.m in Sources */,
 				1B05907F1DAE2E0F00B4DEF8 /* BTableViewCell.m in Sources */,
 				1B05908D1DAE2E0F00B4DEF8 /* ToolNavView.m in Sources */,
