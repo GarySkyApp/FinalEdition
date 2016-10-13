@@ -24,5 +24,5 @@
 
 //重载
 -(NSString *)getPath;
--(NSDictionary *)getParam;
+-(NSDictionary *)getParam:(NSInteger )page andBase:(NSString *)base;
 @end
