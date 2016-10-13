@@ -99,6 +99,7 @@
 		1B60CFF61DAF2FF300FAB726 /* GlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B60CFF51DAF2FF300FAB726 /* GlobeConst.m */; };
 		1B60CFFC1DAF322F00FAB726 /* BPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B60CFFB1DAF322F00FAB726 /* BPageController.m */; };
 		1B60D0001DAF325A00FAB726 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B60CFFF1DAF325A00FAB726 /* BViewController.m */; };
+		1B60F4861DAF644C00FAB726 /* SrcHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B60F4851DAF644C00FAB726 /* SrcHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -306,6 +307,8 @@
 		1B60CFFB1DAF322F00FAB726 /* BPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPageController.m; sourceTree = "<group>"; };
 		1B60CFFE1DAF325A00FAB726 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		1B60CFFF1DAF325A00FAB726 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		1B60F4841DAF644C00FAB726 /* SrcHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SrcHelper.h; sourceTree = "<group>"; };
+		1B60F4851DAF644C00FAB726 /* SrcHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SrcHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -838,6 +841,8 @@
 		1B60CFF31DAF2FF300FAB726 /* Rc */ = {
 			isa = PBXGroup;
 			children = (
+				1B60F4841DAF644C00FAB726 /* SrcHelper.h */,
+				1B60F4851DAF644C00FAB726 /* SrcHelper.m */,
 				1B60CFF41DAF2FF300FAB726 /* GlobeConst.h */,
 				1B60CFF51DAF2FF300FAB726 /* GlobeConst.m */,
 			);
@@ -1028,6 +1033,7 @@
 				1B051A2C1DAE3B8D00AA78D7 /* MSWeakTimer.m in Sources */,
 				1B051A3A1DAE3B8D00AA78D7 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				1B60CFAB1DAF2F8900FAB726 /* MJExtensionConst.m in Sources */,
+				1B60F4861DAF644C00FAB726 /* SrcHelper.m in Sources */,
 				1B60CFAE1DAF2F8900FAB726 /* MJPropertyKey.m in Sources */,
 				1B60CFE01DAF2FA500FAB726 /* AFHTTPRequestOperation.m in Sources */,
 				1B051A371DAE3B8D00AA78D7 /* UITableView+FDIndexPathHeightCache.m in Sources */,
