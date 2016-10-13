@@ -35,7 +35,7 @@ typedef NS_ENUM(NSInteger, pageType) {
 }
 
 -(void) pageNew{
-    [self post:_page byType:pageTypeNew];
+    [self post:1 byType:pageTypeNew];
 }
 -(void) pageMore{
     NSInteger tmpPage = _page +1;
